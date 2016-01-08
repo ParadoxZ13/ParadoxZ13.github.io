@@ -1,0 +1,54 @@
+body {
+	background: black; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(silver, black) fixed; /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradientsilver, black) fixed /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(silver, black) fixed /* For Firefox 3.6 to 15 */
+	background: linear-gradient(silver, black) fixed; /* Standard syntax (must be last) */
+
+      
+	font-family:"Comic Sans MS";
+      
+            
+      }
+
+#borderimg1 { 
+    border: 15px solid transparent;
+    padding: 15px;
+    border-image-source: url(topborder.png);
+    border-image-repeat: repeat;
+    border-image-slice: 30;
+
+}
+      
+img {
+      border: none;
+      top: 40%;
+      }
+
+.logout {
+      position:absolute;
+      top:20px;
+      left:850px;
+	    width:200px;
+	    z-index:-1;
+	    }
+.bound {
+	width:800px;
+	height: 1000px;
+      }
+      
+a:link {
+      color:#0000FF;
+      }
+        
+a:visited {
+      color:#0000FF;
+      }
+
+a:hover {
+      color:#0000FF;
+      }
+
+a:active {
+      color:#0000FF;  
+      }
